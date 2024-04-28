@@ -24,7 +24,7 @@ public class BouncingTile : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.AddForce(new Vector2(25f, 25f));
+        rb.AddForce(new Vector2(100f, 90f));
     }
 
     void Update()
@@ -77,7 +77,7 @@ public class BouncingTile : MonoBehaviour
         if (gameObject.name == "BouncingGrayTile")
             Debug.Log(rb.velocity.magnitude);
         var speed = lastVelocity.magnitude;
-        if (rb.velocity.magnitude < 7 )
+        if (rb.velocity.magnitude < 26 )
         {
             Vector2 v;
             if (math.abs(collision.contacts[0].normal.x) > math.abs(collision.contacts[0].normal.y))
