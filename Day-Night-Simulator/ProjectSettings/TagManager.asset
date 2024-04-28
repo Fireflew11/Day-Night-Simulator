@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - GrayTiles
   - Water
   - UI
-  - 
+  - LightBlueTiles
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: GrayTiles
+    uniqueID: 281265545
+    locked: 0
+  - name: LightBlueTiles
+    uniqueID: 1096473461
     locked: 0
